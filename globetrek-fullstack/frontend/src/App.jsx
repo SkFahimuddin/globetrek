@@ -101,6 +101,41 @@ function App() {
         <section id="america" className="lesson">
           <h2>America</h2>
           <p>From bustling cities to serene national parks, the Americas have it all.</p>
+          <div className="two-col">
+            <div>
+              <h4>Highlights</h4>
+              <ul className="bullets">
+                <li>Washington, D.C., United States </li><li>Albany, new york </li><li>Ottawa, Canada</li><li>Mexico , Mexico City</li>
+              </ul>
+            </div>
+            <div className="note"><strong>Note:</strong> Discover hidden gems across the nation.</div>
+          </div>
+        </section>
+        <section id="africa" className="lesson">
+          <h2>Africa</h2>
+          <p>Africa: Where adventure meets the wild. </p>
+          <div className="two-col">
+            <div>
+              <h4>Highlights</h4>
+              <ul className="bullets">
+                <li>Algiers , Algeria </li><li>Banjul , Gambia </li><li>Conakry , Guinea</li><li>Nairobi , Kenya</li>
+              </ul>
+            </div>
+            <div className="note"><strong>Note:</strong> Drink bottled water only.</div>
+          </div>
+        </section>
+        <section id="oceania" className="lesson">
+          <h2>Australia</h2>
+          <p>Australia: Famous for kangaroos, koalas, and the Great Barrier Reef. </p>
+          <div className="two-col">
+            <div>
+              <h4>Highlights</h4>
+              <ul className="bullets">
+                <li>Sydney , New South Wales </li><li>Melbourne , Victoria </li><li>Brisbane , Queensland</li><li>Adelaide , South Australia</li>
+              </ul>
+            </div>
+            <div className="note"><strong>Note:</strong> Carry sunscreen, Australia’s sun is very strong.</div>
+          </div>
         </section>
         <section id="packing" className="lesson">
           <h2>Packing Guide</h2>
@@ -109,6 +144,10 @@ function App() {
         <section id="budget" className="lesson">
           <h2>Budget Travel Tips</h2>
           <ul className="bullets"><li>Book flights early</li><li>Stay in hostels or guesthouses</li><li>Use public transportation</li></ul>
+        </section>
+        <section id="safety" className="lesson">
+          <h2>Safety traveling tips </h2>
+          <ul className="bullets"><li>Keep copies of important documents (passport, visa, tickets, ID.)</li><li>Avoid unsafe areas at night, use trusted transport only.</li><li>Stay alert with belongings, protect against pickpockets and scams.</li></ul>
         </section>
         <footer className="site-footer">
           <p>© <span id="year">2025</span> GlobeTrek. Travel smart, travel far.</p>
