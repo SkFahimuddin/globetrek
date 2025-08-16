@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6,p ,li,strong,a {
+  color: hsl(var(--heading));
+}
+
 :root {
   --bg: 0 0% 100%;
   --fg: 222 47% 11%;
@@ -7,16 +11,20 @@
   --ring: 259 90% 61%;
   --shadow: 220 40% 2%;
   --card: 0 0% 100%;
+  --heading: 222 47% 11%;
+  --content-bg: 0 0% 100%;
 }
 #themeToggle:checked ~ * {
   --bg: 222 25% 10%;
-  --fg: 0 0% 98%;
+  --fg: 0 0% 100%;
   --muted: 220 11% 70%;
   --brand: 259 86% 70%;
   --surface: 222 22% 14%;
   --ring: 259 86% 70%;
   --shadow: 220 30% 3%;
   --card: 222 22% 14%;
+  --heading: 0 0% 100%;
+  --content-bg: 222 22% 14%;  
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; }
@@ -44,7 +52,7 @@ body {
 .side-nav h3 { margin: 1rem 0 .5rem; font-size: .9rem; color: hsl(var(--muted)); text-transform: uppercase; letter-spacing: .08em; }
 .side-nav a { text-decoration: none; color: hsl(var(--fg)); padding: .5rem .6rem; border-radius: 10px; }
 .side-nav a:hover { background: hsl(var(--brand)/.12); }
-.content { padding: 1rem; margin-left: 0; }
+.content { padding: 1rem; margin-left: 0; background-color: hsl(var(--content-bg));}
 @media (min-width: 980px) { .content { margin-left: 280px; } }
 .hero { display: grid; gap: 1rem; grid-template-columns: 1.1fr .9fr; align-items: center; padding: clamp(1rem, 4vw, 2rem); border-radius: 20px; background: linear-gradient(150deg, hsl(var(--brand)/.12), transparent 40%), hsl(var(--surface)); border: 1px solid hsl(var(--muted)/.18); }
 @media (max-width: 860px) { .hero { grid-template-columns: 1fr; } }
@@ -62,7 +70,7 @@ body {
 .card { background: hsl(var(--card)); border: 1px solid hsl(var(--muted)/.18); border-radius: 16px; padding: 1rem; box-shadow: 0 8px 22px hsl(var(--shadow)/.10); transition: transform .2s, box-shadow .2s; }
 .card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px hsl(var(--shadow)/.18); }
 .card h3 { margin: 0 0 .4rem; }
-.lesson { margin: 2.25rem 0; }
+.lesson { margin: 2.25rem 0; border-bottom: 2px solid black;}
 .lesson h2 { margin-bottom: .4rem; }
 .two-col { display: grid; gap: 1rem; grid-template-columns: 1.2fr .8fr; align-items: start; }
 @media (max-width: 820px) { .two-col { grid-template-columns: 1fr; } }

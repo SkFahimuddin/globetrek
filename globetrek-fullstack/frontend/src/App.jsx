@@ -82,7 +82,7 @@ function App() {
                 <li>Paris, France</li><li>Santorini, Greece</li><li>Rome, Italy</li><li>Swiss Alps, Switzerland</li>
               </ul>
             </div>
-            <div className="tip"><strong>Tip:</strong> Visit in spring or fall to avoid peak tourist crowds.</div>
+            <div className="tip"><strong>Tip:</strong> <a>Visit in spring or fall to avoid peak tourist crowds.</a></div>
           </div>
         </section>
         <section id="asia" className="lesson">
@@ -95,7 +95,7 @@ function App() {
                 <li>Kyoto, Japan</li><li>Bali, Indonesia</li><li>Bangkok, Thailand</li><li>Dubai, UAE</li>
               </ul>
             </div>
-            <div className="note"><strong>Note:</strong> Research visa requirements before traveling.</div>
+            <div className="note"><strong>Note:</strong><a> Research visa requirements before traveling.</a></div>
           </div>
         </section>
         <section id="america" className="lesson">
@@ -108,7 +108,7 @@ function App() {
                 <li>Washington, D.C., United States </li><li>Albany, new york </li><li>Ottawa, Canada</li><li>Mexico , Mexico City</li>
               </ul>
             </div>
-            <div className="note"><strong>Note:</strong> Discover hidden gems across the nation.</div>
+            <div className="note"><strong>Note:</strong> <a>Discover hidden gems across the nation.</a></div>
           </div>
         </section>
         <section id="africa" className="lesson">
@@ -121,7 +121,7 @@ function App() {
                 <li>Algiers , Algeria </li><li>Banjul , Gambia </li><li>Conakry , Guinea</li><li>Nairobi , Kenya</li>
               </ul>
             </div>
-            <div className="note"><strong>Note:</strong> Drink bottled water only.</div>
+            <div className="note"><strong>Note:</strong> <a>Drink bottled water only.</a></div>
           </div>
         </section>
         <section id="oceania" className="lesson">
@@ -134,9 +134,10 @@ function App() {
                 <li>Sydney , New South Wales </li><li>Melbourne , Victoria </li><li>Brisbane , Queensland</li><li>Adelaide , South Australia</li>
               </ul>
             </div>
-            <div className="note"><strong>Note:</strong> Carry sunscreen, Australia’s sun is very strong.</div>
+            <div className="note"><strong>Note:</strong><a> Carry sunscreen, Australia’s sun is very strong.</a></div>
           </div>
         </section>
+        <h1>Travel Tips</h1>
         <section id="packing" className="lesson">
           <h2>Packing Guide</h2>
           <ul className="bullets"><li>Lightweight clothing for layering</li><li>Comfortable walking shoes</li><li>Travel-sized toiletries</li></ul>
